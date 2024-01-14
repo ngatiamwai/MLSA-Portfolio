@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/me.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Ngatia Mwai";
 
 /**
  * Project list
@@ -31,28 +31,26 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Hardware Online",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Hardware Online marketplace which is the ultimate destination for buying and selling top-quality products.",
+    url: "https://github.com/ngatiamwai/Hardware-Online",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "Eagle Aviation Services",
+    description: "Eagle Aviation Services is a design that was created for an Aviation site.",
+    url: "https://www.figma.com/file/MYbKeVFNZpoHtyEiFuB5UV/Eagle-Aviation-Services?type=design&node-id=0%3A1&mode=design&t=IZoEcCLmY5xv6fD5-1",
   },
   {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    title: "My Portifolio Site",
+    description: "This is my portifolio website that shows my different UI/UX work.",
+    url: "https://ngatia-mwai-portfolio.netlify.app/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Linart Care Solutions",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Linart Care Solutions is a health care platform that allows medical professionals to apply for remote jobs.",
+    url: "https://www.figma.com/file/qYhPWQQJHQXfJBtAdBxxbv/Linart-Career-Solutions?type=design&node-id=0%3A1&mode=design&t=JEWr6FPHAOiY3q5u-1",
   },
 ];
 
@@ -61,10 +59,10 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+        <div style={{ maxWidth: "35%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "80%", width: "90%", objectFit: "cover", marginLeft: "10vh" }}
             alt={imageAltText}
           />
         </div>
