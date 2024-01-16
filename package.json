@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://ngatiamwai/github.io/ngatiamwai-MLSA-Portifolio",
+  "homepage": "https://ngatiamwai.github.io/MLSA-Portifolio",
+
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
