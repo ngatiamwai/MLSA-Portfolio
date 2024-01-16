@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://ngatiamwai/github.io/ngatiamwai-MLSA-Portfolio",
+  "homepage": "https://ngatiamwai/github.io/ngatiamwai-MLSA-Portifolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://ngatiamwai.github.io/MLSA-Portfolio'",
+    "build-gh": "parcel build --public-url 'https://ngatiamwai.github.io/MLSA-Portifolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
