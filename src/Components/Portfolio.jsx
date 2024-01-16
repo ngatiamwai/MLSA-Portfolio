@@ -62,7 +62,13 @@ const Portfolio = () => {
         <div style={{ maxWidth: "35%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "80%", width: "90%", objectFit: "cover", marginLeft: "10vh" }}
+            style={{
+              height: "80%",
+              width: "90%",
+              objectFit: "cover",
+              marginLeft: "10vh",
+              animation: "1s ease-out 0s 1 slideIn",
+            }}
             alt={imageAltText}
           />
         </div>
